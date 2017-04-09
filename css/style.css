@@ -10,4 +10,31 @@ body {
 
 #header {
 
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#menu{
+	float: right;
+	padding: 10px 10px;
+	margin-right: 50px;
+}
+
+/*formatacao do menu*/
+a{
+	text-decoration: none;
+	padding: 5px ;
+	border-style: solid;
+	border-color: black;
+	border-width: 0 1px 0 0;
+}
+
+a:hover {
+	background-color: blue;
+	color: #fff;
+	transition: all 1s;
 }
